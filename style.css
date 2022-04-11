@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Rimouski;
+  background-image: url("/assets/qquASKz.jpg");
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.container {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.53);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 1px solid rgba(255, 255, 255, 0.71);
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 120px;
+  padding-bottom: 40px;
+}
+.title {
+  height: 50px;
+  width: 300px;
+}
+.title h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+.notification {
+  height: 30px;
+  background-color: rgb(243, 134, 134);
+  display: none;
+}
+.notification p {
+  color: #721c24;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding-top: 7px;
+}
+.weather-container {
+  height: 280px;
+  width: 300px;
+}
+.weather-icon {
+  height: 125px;
+  width: 300px;
+}
+.weather-icon img {
+  display: block;
+  margin: 0 auto;
+}
+.temp-value {
+  height: 60px;
+  width: 300px;
+}
+.temp-value p {
+  color: #293251;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.temp-value span {
+  font-size: 2rem;
+  color: #293251;
+}
+.weather-description p {
+  color: #293251;
+  padding-top: 15px;
+  margin: 0;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.location p {
+  color: #293251;
+  padding-top: 15px;
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
